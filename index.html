@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pongm basic project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="borderWrapper">
+                <div class="wrapper">
+                    <div class="imageWrapper">
+                        <img src="images/pingPong.jpg" alt="Ping Pong">
+                        <span class="imageText">Ping Pong score keeper</span>
+                    </div>
+                </div>
+                <h1 class="scoreKeeper">
+                    <span class="player-1 player">0</span>
+                    <span> to </span>
+                    <span class="player-2 player">0</span>
+                </h1>
+                <p>Use the buttons below to play game</p>
+                <b class="range">Playing to 
+                    <select name="pingPong" id="pingpong">
+                        <option selected value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </b>
+                <div class="buttonWrapper">
+                    <button class="player-1-button btn">+1 Player 1</button>
+                    <button class="player-2-button btn">+1 Player 2</button>
+                    <button class="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
